@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Oswald:wght@200..700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-color: #440381;
+  --bg-color: #171614;
+  --gradiente01: linear-gradient(
+    to bottom,
+    #fcfdff 0%,
+    #d8e7fb 30%,
+    #d5c5ea 100%
+  );
+  --gradiente02: linear-gradient(
+    to bottom,
+    #895ef4 0%,
+    #4845a9 30%,
+    #9e58f6 100%
+  );
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: var(--bg-color);
+}
+
+main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.menu {
+  position: fixed;
+  top: 0rem;
+  left: 50%;
+  transform: translateX(-50%);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5rem;
+
+  width: 54rem;
+  height: 6rem;
+
+  background: linear-gradient(
+    135deg,
+    rgba(137, 94, 244, 0.4) 0%,
+    rgba(72, 69, 169, 0.4) 30%,
+    rgba(158, 88, 246, 0.4) 100%
+  );
+  backdrop-filter: blur(10px);
+  border-radius: 5rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+}
+
+.menu a {
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family:"Oswald", sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-redes {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 5rem;
+
+  width: 6rem;
+  height: 54rem;
+
+  background: linear-gradient(
+    135deg,
+    rgba(137, 94, 244, 0.4) 0%,
+    rgba(72, 69, 169, 0.4) 30%,
+    rgba(158, 88, 246, 0.4) 100%
+  );
+  backdrop-filter: blur(10px);
+  border-radius: 5rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  margin-left: 1rem;
+}
+
+.fa-brands, .fa-solid  {
+    font-size: 3rem;
+    color: white;
+}
+
+.home {
+    background-image: url("../img/img-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 90vh;
+}
