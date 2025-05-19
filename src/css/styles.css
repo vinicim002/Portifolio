@@ -57,7 +57,7 @@ main {
   column-gap: 5rem;
 
   width: 54rem;
-  height: 6rem;
+  height: 8rem;
 
   background: linear-gradient(
     135deg,
@@ -74,7 +74,7 @@ main {
 .menu a {
     font-size: 1.8rem;
     font-weight: bold;
-    font-family:"Oswald", sans-serif;
+    font-family: "Oswald", sans-serif;
     color: white;
     text-decoration: none;
 }
@@ -91,7 +91,7 @@ main {
   align-items: center;
   row-gap: 5rem;
 
-  width: 6rem;
+  width: 8rem;
   height: 54rem;
 
   background: linear-gradient(
