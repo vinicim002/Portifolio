@@ -1,53 +1,190 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portifolio</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <main>
-        <nav class="menu">
-            <a href="">Home</a>
-            <a href="">Sobre mim</a>
-            <a href="">Projetos</a>
-        </nav>
+      <nav class="menu">
+        <a href="#home">Home</a>
+        <a href="#sobre-mim">Sobre mim</a>
+        <a href="#projetos">Projetos</a>
+      </nav>
 
-        <nav class="menu-redes">
-            <a href=""><i class="fa-brands fa-linkedin"></i></a>
-            <a href=""><i class="fa-brands fa-github"></i></a>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-x-twitter"></i></a>
-            <a href=""><i class="fa-solid fa-file-invoice"></i></a>
-        </nav>
+      <nav class="menu-redes">
+        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        <a href=""><i class="fa-brands fa-github"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+        <a href=""><i class="fa-solid fa-file-invoice"></i></a>
+      </nav>
 
-        <section class="home">
-            <!-- <div class="container-esquerda">
-                <div class="boas-vindas">
-                    <p>Bem-vindo ao meu portfolio</p>
-                    <div class="waving-hand ">👋</div>
-                </div>
-                
-                <div class="title-info">
-                    <p class="title-quem-sou">Eu me chamo Vinicius e sou</p>
-                    <p class="title-formacao">Desenvolvedor <span>Full Stack</span></p>
+      <section class="home" id="home">
+        <div class="conteudo-principal">
+          <div class="container-esquerda">
+            <div class="boas-vindas">
+              <p>Bem-vindo ao meu portfolio</p>
+              <div class="waving-hand">👋</div>
+            </div>
+            <div class="title-info">
+              <p class="title-quem-sou">Eu me chamo Vinicius e sou</p>
+              <p class="title-formacao">
+                Desenvolvedor
+                <span>Full Stack</span>
+              </p>
+            </div>
+          </div>
+          <div class="container-direita">
+            <img src="img/astronauta.png" alt="Astronauta" />
+          </div>
+        </div>
+
+        <div class="nav-skills">
+          <i class="fa-brands fa-html5"></i>
+          <i class="fa-brands fa-css"></i>
+          <i class="fa-brands fa-js"></i>
+          <i class="fa-brands fa-node"></i>
+        </div>
+      </section>
+
+      <section class="sobre" id="sobre-mim">
+        <h2>Sobre mim</h2>
+        <div class="sobre-container">
+          <div class="img-dev"></div>
+
+          <div class="info-container">
+            <div class="frase-destaque">
+              <h3>AQUI VAI UMA FRASE DE IMPACTO</h3>
+            </div>
+
+            <div class="localizacao-container">
+              <i class="fa-solid fa-location-dot"></i>
+              <p>Rio de janeiro, Rio de janeiro</p>
+            </div>
+
+            <div class="texto-sobre">
+              <p>
+                Aqui vai um mini texto sobre quem eu sou oque faco e bla
+                bla Contrary to popular belief, Lorem Ipsum is not simply random
+                text. It has roots in a piece of classical Latin literature from
+                45 BC, making it over 2000 years old. Richard McClintock, a
+                Latin professor at Hampden-Sydney College in Virginia, looked up
+                one of the more obscure Latin words, consectetur, from a Lorem
+                Ipsum passage, and going through the cites of the word in
+                classical literature, discovered the undoubtable source. Lorem
+                Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+                Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
+                written in 45 BC. This book is a treatise on the theory of
+                ethics, very popular during the Renaissance. The first line of
+                Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line
+                in section 1.10.32. Contrary to popular belief, Lorem Ipsum is
+                not simply random text. It has roots in a piece of classical
+                Latin literature from 45 BC, making it over 2000 years old.
+                Richard McClintock, a Latin professor at Hampden-Sydney College
+                in Virginia, looked up one of the more obscure Latin words,
+                consectetur, from a Lorem Ipsum passage, and going through the
+                cites of the word in classical literature, discovered the
+                undoubtable source. Lorem Ipsum comes from sections 1.10.32 and
+                1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good
+                and Evil) by Cicero, written in 45 BC. This book is a treatise
+                on the theory of ethics, very popular during the Renaissance.
+                The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
+                comes from a line in section 1.10.32. The standard chunk of
+                Lorem Ipsum used since the 1500s is reproduced below for those
+                interested. Sections 1.10.32 and 1.10.33 from "de Finibus
+                Bonorum et Malorum" by Cicero are also reproduced in their exact
+                original form, accompanied by English versions from the 1914
+                translation by H. Rackham.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projetos" id="projetos">
+        <h2>Projetos</h2>
+
+        <div class="container-projetos">
+            <div class="projeto-container">
+                <div class="img-projeto"></div>
+                <div class="info-projeto">
+                    <h3>Social Links Profile</h3>
+                    <p>
+                        Aqui vem uma mini explicacao do que Foi feito no projeto em geral Aqui vem uma mini explicacao do que Foi feito no projeto em geral Aqui vem uma mini explicacao do que Foi feito no projeto em geral
+                    </p>
+
+                    <div class="ferramentas">
+                        <div class="ferramenta">HTML</div>
+                        <div class="ferramenta">Javascript</div>
+                        <div class="ferramenta">CSS</div>
+                    </div>
                 </div>
             </div>
 
-            <div class="container-direita">
-                <img src="img/astronauta.png" alt="Astronauta">
+            <div class="projeto-container">
+                <div class="img-projeto"></div>
+                <div class="info-projeto">
+                    <h3>Social Links Profile</h3>
+                    <p>
+                        Aqui vem uma mini explicacao do que Foi feito no projeto em geral Aqui vem uma mini explicacao do que Foi feito no projeto em geral Aqui vem uma mini explicacao do que Foi feito no projeto em geral
+                    </p>
+
+                    <div class="ferramentas">
+                        <div class="ferramenta">HTML</div>
+                        <div class="ferramenta">Javascript</div>
+                        <div class="ferramenta">CSS</div>
+                    </div>
+                </div>
             </div>
 
-            <div class="nav-skills">
-                <i class="fa-brands fa-html5"></i>
-                <i class="fa-brands fa-css"></i>
-                <i class="fa-brands fa-js"></i>
-                <i class="fa-brands fa-node"></i>
-            </div> -->    
-        </section>
+            <div class="projeto-container">
+                <div class="img-projeto"></div>
+                <div class="info-projeto">
+                    <h3>Social Links Profile</h3>
+                    <p>
+                        Aqui vem uma mini explicacao do que Foi feito no projeto em geral Aqui vem uma mini explicacao do que Foi feito no projeto em geral Aqui vem uma mini explicacao do que Foi feito no projeto em geral
+                    </p>
+
+                    <div class="ferramentas">
+                        <div class="ferramenta">HTML</div>
+                        <div class="ferramenta">Javascript</div>
+                        <div class="ferramenta">CSS</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projeto-container">
+                <div class="img-projeto"></div>
+                <div class="info-projeto">
+                    <h3>Social Links Profile</h3>
+                    <p>
+                        Aqui vem uma mini explicacao do que Foi feito no projeto em geral Aqui vem uma mini explicacao do que Foi feito no projeto em geral Aqui vem uma mini explicacao do que Foi feito no projeto em geral
+                    </p>
+
+                    <div class="ferramentas">
+                        <div class="ferramenta">HTML</div>
+                        <div class="ferramenta">Javascript</div>
+                        <div class="ferramenta">CSS</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
     </main>
-    <script src="js/app.js"></script>
-</body>
+
+    <footer></footer>
+    <script src="js/app.js">
+
+    </script>
+  </body>
 </html>
