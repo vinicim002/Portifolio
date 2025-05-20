@@ -103,7 +103,7 @@ main {
   top: 50%;
   transform: translateY(-50%);
   align-self: flex-end;
-  margin-right: 5rem;
+  margin-right: 2rem;
 
   display: flex;
   flex-direction: column;
@@ -147,6 +147,7 @@ main {
   background-size: cover;
   background-position: center;
   min-height: 100vh;
+  max-width: 192rem;
 }
 
 /*Informacoes na home*/
@@ -281,6 +282,7 @@ main {
   padding-top: 10rem;
 
   width: 100%;
+  max-width: 192rem;
 }
 
 /*Titulo da secao*/
@@ -388,6 +390,7 @@ h2 {
   padding-top: 10rem;
 
   width: 100%;
+  max-width: 192rem;
 }
 
 .container-projetos {
