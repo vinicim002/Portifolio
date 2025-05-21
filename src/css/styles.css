@@ -26,6 +26,7 @@
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -238,10 +239,23 @@ main {
 
 /*Imagem astronauta*/
 
+@keyframes astronauta {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(100px); /* ou % */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .container-direita {
   display: flex;
   flex-direction: column;
   width: 50%;
+  animation: astronauta 5s infinite ease-in-out;
 }
 
 .container-direita img {
@@ -286,7 +300,6 @@ main {
 .skills-slide img {
   margin: 0 4rem;
   height: 5rem; /* opcional: ajuste para tamanho consistente */
-  object-fit: contain;
 }
 
 
