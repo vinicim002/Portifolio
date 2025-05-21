@@ -250,16 +250,21 @@ main {
 
 /*nava de habilidades*/
 
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
 .nav-skills {
   width: 100%;
   height: 6rem;
-
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  column-gap: 50rem;
   align-items: center;
-
+  overflow: hidden;
   background: linear-gradient(
     135deg,
     rgba(137, 94, 244, 0.4) 0%,
@@ -267,8 +272,23 @@ main {
     rgba(158, 88, 246, 0.4) 100%
   );
   backdrop-filter: blur(10px);
-  margin-top: auto; /* opcional, se usar flex */
+  white-space: nowrap;
+  padding: 0 2rem;
+  margin-top: auto;
 }
+
+.skills-slide {
+  display: inline-block;
+  animation: slide 35s linear infinite;
+  will-change: transform;
+}
+
+.skills-slide img {
+  margin: 0 4rem;
+  height: 5rem; /* opcional: ajuste para tamanho consistente */
+  object-fit: contain;
+}
+
 
 /*Secao sobre*/
 
